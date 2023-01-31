@@ -59,7 +59,6 @@ body {
     background-size: cover;
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);
     clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);
-    /* transform: skewY(-5deg); */
     z-index: -1;
 }
 
@@ -217,8 +216,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f2f2f2;
-    padding: 50px 0;
+    padding: 200px 0;
+    /* background-color: #f2f2f2; */
 }
 
 .contact h2 {
@@ -282,8 +281,24 @@ footer{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: rgb(2, 29, 29);
+    background-color: rgba(0, 0, 0, 0.2);
     color: white;
+    position: relative;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: -400%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-image: url('https://images.pexels.com/photos/1933317/pexels-photo-1933317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    -webkit-clip-path: polygon(0 20%, 0 100%, 100% 100%, 100% 0);
+    clip-path: polygon(0 20%, 0 100%, 100% 100%, 100% 0);
+    z-index: -1;
 }
 
 footer a{
