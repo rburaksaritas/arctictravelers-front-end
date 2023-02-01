@@ -19,33 +19,54 @@ body {
     color: #fff;
 }
 
+.region-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .region-cards .main-card {
-    display: inline-block;
-    width: 25%;
-    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: center;
+    width: 50%;
+    min-width: 300px;
     margin: 20px;
     text-align: center;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 20px 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.main-card .text-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1px;
+    align-items:flex-start;
 }
 
 .region-cards img {
-    width: 80%;
+    width: 30%;
     height: auto;
     object-fit: cover;
 }
 
 .region-cards h3 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .region-cards p {
     font-size: 18px;
-    margin-bottom: 20px;
     color: #666666;
+    text-align: left;
+    margin-top: 5px;
 }
 
 .region-cards a {
@@ -56,6 +77,10 @@ body {
     border-radius: 20px;
     text-decoration: none;
     margin-top: 20px;
+}
+
+.region-cards .main-card:hover {
+    transform: scale(1.1);
 }
 
 footer{

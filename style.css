@@ -261,7 +261,8 @@ body {
     cursor: pointer;
 }
 
-.contact form button[type="submit"]:hover {
+.contact form button[type="submit"]:hover,
+.main-header .cta:hover {
     background-color: rgb(19, 157, 65);
 }
 
