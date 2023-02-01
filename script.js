@@ -6,6 +6,7 @@ ctaButton.addEventListener('click', function(event){
     event.preventDefault();
     ctaButton.innerHTML = "Soon...";
 })
+
 /**
  * FORM SUBMISSION
  */
