@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.regions-header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.regions-header h2 {
+    font-size: 16px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.region-cards .main-card {
+    display: inline-block;
+    width: 25%;
+    min-width: 200px;
+    margin: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.region-cards img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
+
+.region-cards h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.region-cards p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666666;
+}
+
+.region-cards a {
+    display: block;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 200px;
+}
