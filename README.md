@@ -1,13 +1,15 @@
 # arctictravelers-front-end
 
 <h2>Arctic Travelers Website</h2>
-A website for booking Arctic adventure tours, developed using HTML, CSS, and JavaScript.
+A website for booking Arctic adventure tours<br>
+Developed using HTML, CSS, and JavaScript.
 
 <h3>Features</h3>
-Three pages: Home, Regions, and Pricing
-Responsive design for different screen sizes using flexbox
-Interactive buttons and form for booking tours
-Stylish and modern design
+Three pages: Home, Regions, and Pricing<br>
+Responsive design for different screen sizes using flexbox<br>
+Interactive buttons<br>
+Form for contact that checks the input validity and shows a success message when submitted<br>
+Stylish and modern design<br>
 
 <h3>Preview</h3>
 <img width="1422" alt="Screenshot 2023-02-02 at 15 05 19" src="https://user-images.githubusercontent.com/86561984/216320037-f9790e63-19fa-4fe3-84bc-504188e2c71c.png">
@@ -17,12 +19,14 @@ Stylish and modern design
 
 
 <h3>Requirements</h3>
-A modern web browser
+A modern web browser<br>
+Internet connection if interested in live preview through Github Pages
 
 <h3>Setup</h3>
-Clone or download the repository
-Navigate to the repository directory
-Open the index.html file in your browser
+Clone or download the repository<br>
+Navigate to the repository directory<br>
+Open the index.html file in your browser<br><br>
+Alternatively, just visit live preview at: https://rburaksaritas.github.io/arctictravelers-front-end
 
 <h3>Contributions</h3>
 This project was developed by https://github.com/rburaksaritas. Contributions are welcome. If you find any bugs or have any suggestions, please open an issue or create a pull request.
