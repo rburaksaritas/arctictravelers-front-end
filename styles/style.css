@@ -6,6 +6,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
     align-items: center;
     height: 80px;
     padding: 10px 200px;
@@ -30,6 +31,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .navbar-right li {
